@@ -1,0 +1,12 @@
+
+r	java:S106("+Replace this use of System.out by a logger.(ºªòÿÿÿÿÿ8»×Úææ1J$7544bd3e-7bec-48bd-8b17-b4ddf3297617
+m	java:S1061"+Replace this use of System.out by a logger.(íŠ¢ƒ8»×Úææ1J$7fb8ba10-41e7-4740-80ad-e562d8550906
+r	java:S1062"+Replace this use of System.out by a logger.(ŸŒÖøÿÿÿÿ8»×Úææ1J$1c9a6162-9631-4abe-8797-26aebb5056e1
+r	java:S106;"+Replace this use of System.out by a logger.(å¥øóşÿÿÿÿ8»×Úææ1J$dc83cc72-8ebb-491a-83a1-e7cccb9a3899
+r	java:S106M"+Replace this use of System.out by a logger.(¹ÁÊ»ùÿÿÿÿ8Îâèææ1J$0e5974c0-24b5-428f-9227-f05380715bcf
+G	java:S106N"+Replace this use of System.out by a logger.(ÙÙ·8èšúææ1
+G	java:S106U"+Replace this use of System.out by a logger.(Äÿç÷8èšúææ1
+_
+java:S1128"BRemove this unused import 'junit.framework.TestCase.assertEquals'.(àî‚˜8îšúææ1
+Y
+java:S1128"<Remove this unused import 'org.junit.jupiter.api.AfterEach'.(ªÎµã8ğšúææ1

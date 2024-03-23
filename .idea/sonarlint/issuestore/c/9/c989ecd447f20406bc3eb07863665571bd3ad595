@@ -1,0 +1,17 @@
+
+’
+java:S2095q"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ùåø8ÜÈÑææ1J$251a35c8-158e-464d-8f5b-8838c2b095b0
+’
+java:S2095I"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ùåø8ÜÈÑææ1J$a3fa6038-cbba-48c5-8494-e261eb3796aa
+
+java:S2095]"GUse try-with-resources or close this "Statement" in a "finally" clause.(‡²€·ıÿÿÿÿ8§«êææ1J$a17f57eb-b60f-422a-a482-722cf3b4f0a2
+
+java:S2095œ"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8¼˜ßææ1J$6e07e727-a7ca-4ee4-b54f-cba6d2d4eac3
+j
+java:S2095†"GUse try-with-resources or close this "Statement" in a "finally" clause.(‡²€·ıÿÿÿÿ8’›õææ1
+‡
+java:S2583a"DChange this condition so that it does not always evaluate to "false"(ŒÖÄî8õæÑææ1J$8696bd86-b55d-41ee-8a79-3c78dc002623
+b
+java:S2583Š"DChange this condition so that it does not always evaluate to "false"(ŒÖÄî8¡›õææ1
+}
+java:S1118":Add a private constructor to hide the implicit public one.(üŠåÜ8íÈÑææ1J$6175b30c-ecd5-439f-acb8-e004550381c2
