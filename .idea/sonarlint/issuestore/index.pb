@@ -15,3 +15,10 @@ _
 /src/main/resources/db/workers_database.trace.db,1\6\1668ae2f02e2586a9114ac1091d838eeb6cd5a94
 ù
 msrc/test/java/com/sangarius/multithreadedworkerdatabaseprocessing/tests/MultithreadedWorkerGeneratorTest.java,7\6\76c341afe958ac3f97ec6aecee48a0eb9c3964a5
+Å
+Q.idea/sonarlint/securityhotspotstore/f/4/f4efbfc6fea353003e52c7ea52584ae0224dfded,1\b\1bfb6c7cd9ac5f0eb727422fc708d6af19a792f1
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
