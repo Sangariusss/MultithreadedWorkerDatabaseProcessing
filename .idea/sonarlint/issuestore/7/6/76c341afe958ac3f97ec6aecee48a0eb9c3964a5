@@ -1,9 +1,0 @@
-
-•
-java:S2095"MUse try-with-resources or close this "ExecutorService" in a "finally" clause.(‡ã“Ïşÿÿÿÿ8õ‚ûâæ1J$939a2303-8704-4d08-9d8e-c1709bdab0cb
-•
-java:S20950"MUse try-with-resources or close this "ExecutorService" in a "finally" clause.(‡ã“Ïşÿÿÿÿ8Ñ×ãæ1J$a7a51d05-88ce-4da0-8c93-37b310955bec
-¶
-java:S1130"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ßæ·¡ûÿÿÿÿ8†ƒûâæ1J$2e2e2991-55e0-4e84-844c-000831e4c588
-¶
-java:S1130,"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(½£ñ«øÿÿÿÿ8å×ãæ1J$b4a96df7-0b05-463c-95f9-8c2f5d00f9fb

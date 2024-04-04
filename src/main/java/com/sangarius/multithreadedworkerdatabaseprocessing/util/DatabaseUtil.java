@@ -106,20 +106,15 @@ public class DatabaseUtil {
     }
 
     public static int getCountWorkersWithEducation(String education) throws SQLException {
-        Connection connection = null;
-        ResultSet resultSet = null;
-        try {
-            connection = getConnection();
+        try (Connection connection = getConnection();
             PreparedStatement statement = connection.prepareStatement(
-                "SELECT COUNT(*) FROM workers WHERE education = ?");
+                "SELECT COUNT(*) FROM workers WHERE education = ?")) {
             statement.setString(1, education);
-            resultSet = statement.executeQuery();
-            if (resultSet.next()) {
-                return resultSet.getInt(1);
+            try (ResultSet resultSet = statement.executeQuery()) {
+                if (resultSet.next()) {
+                    return resultSet.getInt(1);
+                }
             }
-        } finally {
-            closeResultSet(resultSet);
-            closeConnection(connection);
         }
         return 0;
     }
@@ -127,17 +122,13 @@ public class DatabaseUtil {
     public static ResultSet getCountWorkersByGender() throws SQLException {
         Connection connection = null;
         Statement statement = null;
-        ResultSet resultSet = null;
 
         try {
             connection = getConnection();
             statement = connection.createStatement();
-            resultSet = statement.executeQuery("SELECT gender, COUNT(*) as count FROM workers GROUP BY gender");
+            ResultSet resultSet = statement.executeQuery("SELECT gender, COUNT(*) AS count FROM workers GROUP BY gender;");
             return resultSet;
         } catch (SQLException e) {
-            if (resultSet != null) {
-                resultSet.close();
-            }
             if (statement != null) {
                 statement.close();
             }

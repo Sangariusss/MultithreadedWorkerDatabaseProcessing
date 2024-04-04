@@ -1,7 +1,5 @@
 package test.java.com.sangarius.multithreadedworkerdatabaseprocessing.tests;
 
-import static junit.framework.TestCase.assertEquals;
-
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
@@ -9,7 +7,6 @@ import main.java.com.sangarius.multithreadedworkerdatabaseprocessing.model.entit
 import main.java.com.sangarius.multithreadedworkerdatabaseprocessing.util.DatabaseUtil;
 import main.java.com.sangarius.multithreadedworkerdatabaseprocessing.model.dataGenerator.DataGenerator;
 import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 
 public class WorkerGeneratorTest {
